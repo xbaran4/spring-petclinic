@@ -1,0 +1,25 @@
+schemaVersion: 2.1.0
+metadata:
+  name: spring-petclinic
+components:
+  - name: maven
+    container:
+      image: quay.io/eclipse/che-java8-maven:nightly
+      volumeMounts:
+        - name: mavenrepo
+          path: /root/.m2
+      env:
+        - name: ENV_VAR
+          value: value
+      endpoints:
+        - name: maven-server
+          targetPort: 3101
+          configuration:
+            protocol: tcp
+            scheme: http
+            secure: 'true'
+            public: 'true'
+            discoverable: 'false'
+      memoryLimit: 1536M
+      command: ['tail']
+      args: ['-f', '/dev/null']
