@@ -12,3 +12,5 @@ components:
         - name: ENV_VAR
           value: value
       memoryLimit: 1536M
+  - name: mavenrepo
+    volume: {}
