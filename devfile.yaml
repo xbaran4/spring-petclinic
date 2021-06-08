@@ -1,8 +1,8 @@
 schemaVersion: 2.0.0
-attributes:
-  che-theia.eclipse.org/sidecar-policy: USE_DEV_CONTAINER
 metadata:
   name: spring-petclinic
+attributes:
+  che-theia.eclipse.org/sidecar-policy: USE_DEV_CONTAINER
 projects:
   - name: spring-petclinic
     git:
