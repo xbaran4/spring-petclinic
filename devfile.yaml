@@ -43,7 +43,7 @@ commands:
   - id: build
     exec:
       component: tools
-      workingDir: ${CHE_PROJECTS_ROOT}/spring-petclinic
+      workingDir: ${PROJECTS_ROOT}/spring-petclinic
       commandLine: "mvn clean install"
       group:
         kind: build
@@ -51,6 +51,7 @@ commands:
   - id: run
     exec:
       component: tools
+      workingDir: ${PROJECTS_ROOT}/spring-petclinic
       commandLine: "java -jar -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 target/*.jar"
       group:
         kind: run
