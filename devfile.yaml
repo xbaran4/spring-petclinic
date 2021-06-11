@@ -1,4 +1,4 @@
-schemaVersion: 2.1.0-alpha
+schemaVersion: 2.1.0
 metadata:
   name: spring-petclinic
 attributes:
