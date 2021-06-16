@@ -3,14 +3,6 @@ metadata:
   name: spring-petclinic
 attributes:
   che-theia.eclipse.org/sidecar-policy: USE_DEV_CONTAINER
-  .vscode/extensions.json: |
-    {
-      // See https://go.microsoft.com/fwlink/?LinkId=827846
-      // for the documentation about the extensions.json format
-      "recommendations": [
-        "redhat.java"
-      ]
-    }
 projects:
   - name: spring-petclinic
     git:
