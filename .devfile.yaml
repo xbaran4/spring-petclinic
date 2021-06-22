@@ -4,11 +4,14 @@ metadata:
 components:
   -
     type: chePlugin
-    id: redhat/java8/latest
+    id: redhat/java11/latest
+  -
+    type: chePlugin
+    id: github/vscode-pull-request-github/latest
   -
     type: dockerimage
     alias: tools
-    image: quay.io/eclipse/che-java8-maven:next
+    image: quay.io/eclipse/che-java11-maven:next
     env:
       - name: MAVEN_CONFIG
         value: ""
