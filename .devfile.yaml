@@ -8,6 +8,7 @@ components:
   -
     type: chePlugin
     id: github/vscode-pull-request-github/latest
+    registryUrl: https://eclipse-che.github.io/che-plugin-registry/main/v3/
   -
     type: dockerimage
     alias: tools
