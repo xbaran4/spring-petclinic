@@ -6,6 +6,9 @@ components:
     type: chePlugin
     id: redhat/java11/latest
   -
+    type: cheEditor
+    id: che-incubator/intellij-community/2020.3.3
+  -
     type: chePlugin
     id: github/vscode-pull-request-github/latest
     registryUrl: https://eclipse-che.github.io/che-plugin-registry/main/v3/
