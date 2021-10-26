@@ -7,7 +7,7 @@ components:
     id: redhat/java11/latest
   -
     type: cheEditor
-    id: che-incubator/intellij-community/2020.3.3
+    reference: https://raw.githubusercontent.com/che-incubator/jetbrains-editor-images/meta/che-idea/latest.meta.yaml
   -
     type: chePlugin
     id: github/vscode-pull-request-github/latest
