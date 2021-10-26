@@ -3,15 +3,8 @@ metadata:
   name: java-mysql
 components:
   -
-    type: chePlugin
-    id: redhat/java11/latest
-  -
     type: cheEditor
     reference: https://raw.githubusercontent.com/che-incubator/jetbrains-editor-images/meta/che-idea/latest.meta.yaml
-  -
-    type: chePlugin
-    id: github/vscode-pull-request-github/latest
-    registryUrl: https://eclipse-che.github.io/che-plugin-registry/main/v3/
   -
     type: dockerimage
     alias: tools
