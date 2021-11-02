@@ -1,8 +1,6 @@
 apiVersion: 1.0.0
 metadata:
   name: java-mysql
-  attributes:
-    extensions.ignoreRecommendations: 'true'
 components:
   - type: chePlugin
     id: redhat/java11/latest
