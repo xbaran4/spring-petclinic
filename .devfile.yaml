@@ -7,7 +7,7 @@ components:
   - type: chePlugin
     id: redhat/java11/latest
       preferences:
-        java.autobuild.enabled: false
+        java.autobuild.enabled: 'false'
         java.server.launchMode: Standard
   - type: dockerimage
     alias: tools
