@@ -23,6 +23,9 @@ components:
   - name: m2
     volume:
       size: 1G
+  - name: kube
+    volume:
+      size: 1G
 commands:
   - id: build
     exec:
